@@ -1,0 +1,103 @@
+/* From uiverse.io by @FrM-bot */
+
+.skillitemcard {
+  width: 400px;
+  height: max-content;
+  transition: all .3s;
+  position: relative;
+  border-radius: .5rem 2rem;
+  box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.14);
+  margin-bottom: 1em;
+
+}
+
+.skillitemcard:hover {
+  /* transform: scale(1.03); */
+
+}
+
+.img {
+  /* transition: all .3s;
+    background: #00d0ff43;
+    background: -webkit-linear-gradient(to right, #c91d7996, #09c9deb6);
+    background: linear-gradient(to right, #bb0b695d, #09d9b625);
+    width: 100%; */
+}
+
+.img:hover {
+  /* transform: scale(1.9); */
+}
+
+.img-container {
+  display: grid;
+  border-radius: .2rem 2rem;
+  height: 390px;
+  overflow: hidden;
+}
+
+.description {
+  position: absolute;
+  top: 0.5rem;
+  left: .5rem;
+  text-align: start;
+  padding: .8rem 1em;
+  width: 95%;
+  transition: all 0.5s ease;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  backdrop-filter: blur(.1rem);
+  background-color: rgba(36, 36, 36, 0.281);
+  border-radius: .5rem 2rem;
+}
+
+.description:hover {
+  transform: perspective(100px) translateX(7px) rotateX(2deg) rotateY(2deg) scale(1);
+  box-shadow: none;
+  border: 0.1px solid rgba(10, 201, 153, 0.164);
+
+}
+
+.skillitemcardtitle {
+  color: rgb(255, 255, 255);
+  font-family: monospace;
+  font-size: larger;
+  font-weight: 700;
+
+}
+
+.subitem {
+  background-color: aqua;
+  width: 45%;
+}
+
+.skillitemcardcontainer {
+  display: flex;
+  gap: 10px;
+}
+
+.skillitemcardcontainercard {
+  background-color: #00000038;
+  height: 80px;
+  width: 110px;
+  flex: 1;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.skillitemcardcontainercard:hover {
+  flex: 2;
+  background-color: #26cece30;
+}
+
+.skillname {
+  color: aqua;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: monospace;
+  font-size: medium;
+}

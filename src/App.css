@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+.container {
+  margin-top: 0;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.infoContainer {
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bgimg {
+  background-image: url("https://images.pexels.com/photos/176851/pexels-photo-176851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  height: min-content;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.developerimage {
+  background: rgba(255, 255, 255, 0.05);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 10px;
+}
+
+.introtext {
+  color: aliceblue;
+  font-size: 40px;
+  font-family: monospace;
+}
+
+.basedin {
+  color: #ffffff;
+}
+
+.introsmalltext {
   color: white;
+  font-family: monospace;
 }
 
-.App-link {
-  color: #61dafb;
+.animated3dbox {
+  background-color: aqua;
+
+}
+.skillsdecpt{
+  color: white;
+  font-family: monospace;
+  margin-bottom: 1em;
+  padding: 1em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
