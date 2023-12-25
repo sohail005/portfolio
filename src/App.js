@@ -59,7 +59,7 @@ const revalsysdata = [
   }
 ]
 function App() {
-  //document.body.style.overflow = 'hidden';
+  //document.body.style.overflow = 'scroll';
   const windowWidth = useRef(window.innerWidth);
   const windowHeight = useRef(window.innerHeight);
 
