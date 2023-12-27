@@ -48,16 +48,34 @@ const mpsdata = [
   {
     id: 1, name: 'Mufeed Products and Services Pvt Ltd.', img: require('./Assets/mps.png'),
     duration: 'Feb 2022 - Nov 2023', role: 'FullStack Developer',
-    skills: [{ sname: 'React' }, { sname: 'React Native' }, { sname: 'HTML' }, { sname: 'CSS' }, { sname: 'Javascript' }, { sname: 'Firebase' },{ sname: 'MongoDB' }, { sname: 'Nodejs' }, { sname: 'Express.js' }]
+    skills: [{ sname: 'React' }, { sname: 'React Native' }, { sname: 'HTML' }, { sname: 'CSS' }, { sname: 'Javascript' }, { sname: 'Firebase' }, { sname: 'MongoDB' }, { sname: 'Nodejs' }, { sname: 'Express.js' }]
   }
 ]
 const revalsysdata = [
   {
     id: 1, name: 'Revalsys Technologies India Pvt Ltd.', img: require('./Assets/reval.jpg'),
     duration: 'Dec 2021 - Present', role: 'React Native Developer',
-    skills: [ { sname: 'React Native' }, { sname: 'HTML' }, { sname: 'CSS' }, { sname: 'Javascript' }, { sname: 'Nodejs' }, { sname: 'Azure' },{ sname: 'Firebase' },]
+    skills: [{ sname: 'React Native' }, { sname: 'HTML' }, { sname: 'CSS' }, { sname: 'Javascript' }, { sname: 'Nodejs' }, { sname: 'Azure' }, { sname: 'Firebase' },]
   }
 ]
+
+const projectsdata = [
+  { id: 5, name: 'Finecart', playstoreurl: "https://play.google.com/store/apps/details?id=com.retail.center.io&pcampaignid=web_share", img: "https://play-lh.googleusercontent.com/dRmXZ9KOrIV3ysgByLlUDf32JTG8-fC5sEr9D7XeXjSLpP1OjYMlsgYekqx0xQzteuY=s96-rw" },
+  { id: 0, name: 'Hopp', playstoreurl: "https://play.google.com/store/apps/details?id=com.Revalsys.warantech.HoppCustomer&pcampaignid=web_share", img: "https://play-lh.googleusercontent.com/65rwHxXRvvzoJG6iETMINnUgeQqYq0JUUVUCP8AHMARnUVGYOXVNqSL4FRyWCOUxnDY=w480-h960-rw" },
+  {
+    id: 1, name: 'Hopp-Partner', playstoreurl: "https://play.google.com/store/apps/details?id=com.Revalsys.warantech.HOPPDriver&pcampaignid=web_share",
+    img: "https://play-lh.googleusercontent.com/GOMusFUPLSJCgpplOT8-i2qRqR_EGjNLelEO2MDsnzI6C0Y8gRPy-iqLhImfM0JoEQ=w480-h960-rw"
+  },
+  {
+    id: 2, name: 'Reval Retail', playstoreurl: "https://play.google.com/store/apps/details?id=com.revalretail&pcampaignid=web_share",
+    img: "https://play-lh.googleusercontent.com/DE372GJhBmpnz9xdn3wRcdpFqV5z2NzkZQ2Ro6EDPxkbnD-vzC8t9q6ezeqGoAkLUT0=w480-h960-rw"
+  },
+  {
+    id: 3, name: 'RevalOmni Dashboard', playstoreurl: "https://play.google.com/store/apps/details?id=com.masterwsi&pcampaignid=web_share",
+    img: "https://play-lh.googleusercontent.com/ACPopRcdWwcEgdhg8yvN1Tp6FF2xfzskkqWP6OmGhgvjWOZOaBCCD7T5t4FnaFdDiYL3=w480-h960-rw"
+  },
+]
+
 function App() {
   //document.body.style.overflow = 'scroll';
   const windowWidth = useRef(window.innerWidth);
@@ -130,15 +148,10 @@ function App() {
         <ProjectButton />
       </div>
       <h5 className="d-flex justify-content-center skillsdecpt">I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.</h5>
-      <Row style={{ alignItems: 'center', justifyContent: 'center',}}  >
+      <Row style={{ alignItems: 'center', justifyContent: 'center', }}  >
         <Col xs={0}>
           <div className="d-flex justify-content-center">
-            <Project companydata={mpsdata} />
-          </div>
-        </Col>
-        <Col xs={0} style={{}}>
-          <div className="d-flex justify-content-center">
-            <Project companydata={revalsysdata} />
+            <Project projectData={projectsdata} />
           </div>
         </Col>
       </Row>

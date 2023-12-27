@@ -46,7 +46,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   backdrop-filter: blur(.1rem);
-  background-color: rgba(36, 36, 36, 0.281);
+  background-color: rgba(94, 94, 94, 0.281);
   border-radius: .5rem 2rem;
 }
 
