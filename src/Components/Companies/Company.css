@@ -1,6 +1,6 @@
 .companycard {
     width: 450px;
-    height: 340px;
+    height: 360px;
     padding: 20px;
     color: white;
     background: linear-gradient(#32313180, #212121b1) padding-box,
@@ -36,15 +36,16 @@
   .companycard .categories {
     display: flex;
     gap: 8px;
+    width: 200px;
   }
   
   .companycard .categories span {
     background-color: #364743ad;
     padding: 4px 4px;
-    font-weight: 600;
+    font-weight: 700;
     /* text-transform: uppercase; */
     font-size: 12px;
-    border-radius: 50em;
+    border-radius: 10px;
     font-family: monospace;
     margin: 5px;
   }

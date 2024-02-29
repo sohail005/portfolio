@@ -53,7 +53,8 @@ function Animated3dbox() {
 
                     </div>
                     <div className="view-more">
-                        <button className="view-more-button resume"><a href="https://docs.google.com/document/d/10bwoDD2S5-Ug2AfEBUVGsaI_7L2tKPZ9/edit?usp=sharing&ouid=106880358297204721729&rtpof=true&sd=true">Resume</a></button>
+                        <button className="view-more-button resume">
+                            <a href="https://docs.google.com/document/d/10bwoDD2S5-Ug2AfEBUVGsaI_7L2tKPZ9/edit?usp=sharing&ouid=106880358297204721729&rtpof=true&sd=true" className='text-decoration-none resumetext'>Resume</a></button>
                     </div>
                 </div>
             </div>

@@ -24,7 +24,7 @@ function Company({ companydata }) {
                             return (
                                 <Col xs={0}>
                                     <div className="categories">
-                                        <span style={{ fontWeight: 'bold', fontFamily: 'monospace' }}>{item.sname}</span>
+                                        <span style={{ fontWeight: 'bold', fontFamily: 'monospace',padding:5,textAlign:'center',paddingLeft:10,paddingRight:10 }}>{item.sname}</span>
                                     </div>
                                 </Col>
 

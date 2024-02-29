@@ -87,14 +87,16 @@ function App() {
       {/* <Header /> */}
       {/* Header with name and linkes*/}
 
+
+
       <Row style={{ alignItems: 'center', justifyContent: 'center' }}  >
         <Col xs={0}>
           <div className="d-flex justify-content-center"><Animated3dbox /></div>
         </Col>
         <Col xs={0}>
-          <div className="introtext text-center">Hi, I'm</div>
-          <div className="introtext text-center"> A FullStack Developer</div>
-          <div className="introtext text-center basedin">Based In India.</div>
+          <div className="introtext text-center ">Hi, I'm</div>
+          <div className="introtext text-center ">A FullStack Developer</div>
+          <div className="introtext text-center basedin ">Based In India.</div>
         </Col>
       </Row>
 

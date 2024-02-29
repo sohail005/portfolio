@@ -284,3 +284,7 @@
  .resume:hover::before {
   width: 9em;
  }
+ .resumetext{
+  color: #fefefe;
+  font-family: monospace;
+ }
