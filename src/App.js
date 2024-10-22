@@ -9,8 +9,6 @@ import Company from './Components/Companies/Company';
 import ProjectButton from './Components/ProjectBtttonConatiner/ProjectButton';
 import Project from './Components/ProjectBtttonConatiner/Project';
 
-
-
 const frontendData = [
   { id: 0, name: 'React', img: require('./Assets/react.png') },
   { id: 1, name: 'CSS', img: require('./Assets/css.png') },
@@ -18,7 +16,6 @@ const frontendData = [
   { id: 3, name: 'Redux', img: require('./Assets/redux.png') },
   { id: 4, name: 'JavaScript', img: require('./Assets/javascript.png') },
   { id: 4, name: 'Bootstrap', img: require('./Assets/bootstrap.png') },
-
 ]
 const backendData = [
   { id: 0, name: 'Node jS', img: require('./Assets/nodejs.png') },
@@ -132,8 +129,6 @@ function App() {
             <Skillitem title='Others' SkillData={others} />
           </div>
         </Col>
-
-
       </Row>
 
       <div className="d-flex justify-content-center">
