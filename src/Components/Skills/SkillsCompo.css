@@ -141,7 +141,7 @@ button {
     color: rgb(206, 220, 224);
     left: 10px;
     transition: all 3s;
-    font-family: monospace;
+    font-family: 'Fantasy';;
 }
 
 .main:hover>.asteriods-large,

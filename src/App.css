@@ -9,14 +9,14 @@
 }
 
 .bgimg {
-  background-image: url("https://images.pexels.com/photos/2670898/pexels-photo-2670898.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  /* background-image: url("https://images.pexels.com/photos/2670898/pexels-photo-2670898.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); */
   height: min-content;
   width: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   /* backdrop-filter: blur(1px); */
-  /* background-color: rgba(0, 0, 0, 0.901); */
+   background-color: rgba(0, 0, 0, 1); 
 }
 
 .developerimage {
@@ -28,7 +28,7 @@
 .introtext {
   color: aliceblue;
   font-size: 40px;
-  font-family: monospace;
+  font-family: 'Fantasy';;
 }
 
 .basedin {
@@ -37,7 +37,7 @@
 
 .introsmalltext {
   color: white;
-  font-family: monospace;
+  font-family: 'Fantasy';;
 }
 
 .animated3dbox {
@@ -46,7 +46,7 @@
 }
 .skillsdecpt{
   color: white;
-  font-family: monospace;
+  font-family: 'Fantasy';;
   margin-bottom: 1em;
   padding: 1em;
 }

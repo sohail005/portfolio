@@ -40,7 +40,7 @@
   color: #ffffff;
   font-weight: 900;
   font-size: 25px;
-  font-family: monospace;
+ font-family: 'Fantasy';;
 }
 
 .content .text1 {
@@ -48,7 +48,7 @@
   color: rgb(255, 255, 255);
   font-size: 15px;
   margin-top: 30px;
-  font-family: monospace;
+ font-family: 'Fantasy';;
 }
 
 .bottom {
@@ -83,7 +83,7 @@
   font-weight: bolder;
   font-size: 12px;
   letter-spacing: 2px;
-  font-family: monospace;
+ font-family: 'Fantasy';;
 }
 
 .bottom .view-more .svg {
@@ -258,7 +258,7 @@
   height: 3em;
   border-radius: 30em;
   font-size: 15px;
-  font-family: inherit;
+  font-family: 'Fantasy';;
   border: none;
   position: relative;
   overflow: hidden;
@@ -286,5 +286,5 @@
  }
  .resumetext{
   color: #fefefe;
-  font-family: monospace;
+ font-family: 'Fantasy';;
  }

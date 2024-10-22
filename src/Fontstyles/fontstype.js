@@ -1,0 +1,3 @@
+const fontcustomstyle={
+    fontfamiliy:"Audiowide"
+}

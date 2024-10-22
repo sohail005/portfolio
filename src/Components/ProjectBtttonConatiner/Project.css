@@ -1,29 +1,28 @@
 .projectCard {
-    width: 450px;
-    height: 200px;
-    background-image: linear-gradient(163deg, #00ff776d 0%, #49378975 100%);
-    border-radius: 20px;
-    transition: all .3s;
-    margin-bottom: 2%;
-  }
-  
-  .projectCard2 {
-    width: 450px;
-    height: 200px;
-    background-color: #00000071;
-    border-radius: 20px;
-    transition: all .2s;
-  }
-  
-  .projectCard2:hover {
-    transform: scale(0.98);
-    border-radius: 20px;
-  }
-  
-  .projectCard:hover {
-    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
-  }
-  h6{
-    color: rgb(255, 255, 255);
-    font-family: monospace;
-  }
+  background-image: linear-gradient(163deg, #00ff776d 0%, #49378975 100%);
+  border-radius: 20px;
+  transition: all .3s;
+  margin: 2%;
+  flex: content;
+}
+
+.projectCard2 {
+
+  background-color: #00000071;
+  border-radius: 20px;
+  transition: all .2s;
+}
+
+.projectCard2:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+
+.projectCard:hover {
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+
+h6 {
+  color: rgb(255, 255, 255);
+  font-family: 'Fantasy';;
+}

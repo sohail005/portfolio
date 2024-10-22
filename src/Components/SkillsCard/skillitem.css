@@ -6,7 +6,7 @@
   transition: all .3s;
   position: relative;
   border-radius: .5rem 2rem;
-  box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.14);
+  box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.1);
   margin-bottom: 1em;
 
 }
@@ -46,7 +46,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   backdrop-filter: blur(.1rem);
-  background-color: rgba(94, 94, 94, 0.281);
+  background-color: rgba(94, 94, 94, 0.2);
   border-radius: .5rem 2rem;
 }
 
@@ -59,7 +59,7 @@
 
 .skillitemcardtitle {
   color: rgb(255, 255, 255);
-  font-family: monospace;
+  font-family: 'Fantasy';
   font-size: larger;
   font-weight: 700;
 
@@ -95,9 +95,10 @@
 }
 
 .skillname {
-  color: aqua;
+  color: rgb(255, 255, 255);
   padding-right: 10px;
   padding-left: 10px;
-  font-family: monospace;
+  font-family: 'Fantasy';
   font-size: medium;
+  width: 100px;
 }

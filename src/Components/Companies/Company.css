@@ -1,18 +1,17 @@
 .companycard {
     width: 450px;
-    height: 360px;
     padding: 20px;
     color: white;
     background: linear-gradient(#32313180, #212121b1) padding-box,
                 linear-gradient(145deg, transparent 35%,#2cad844d, #40c9ff48) border-box;
     border: 2px solid transparent;
-    border-radius: 8px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     cursor: pointer;
     transform-origin: right bottom;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-    margin: 20px;
+    margin: 10px;
   }
   
   .companycard .main-content {
@@ -30,7 +29,7 @@
     font-size: 24px;
     margin: 24px 0 16px;
     font-weight: 600;
-    font-family: monospace;
+   font-family: 'Fantasy';;
   }
   
   .companycard .categories {
@@ -46,7 +45,7 @@
     /* text-transform: uppercase; */
     font-size: 12px;
     border-radius: 10px;
-    font-family: monospace;
+   font-family: 'Fantasy';;
     margin: 5px;
   }
   
@@ -58,7 +57,9 @@
   }
   
   .companycard:hover {
-    rotate: 8deg;
+    /* rotate: 360deg; */
+  background-color: rgb(42, 87, 62) ;
+  transition: transform 0.3s ease, background-color 0.3s ease;
   }
   .header{
     margin-bottom: 10px;

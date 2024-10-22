@@ -9,13 +9,13 @@ function Company({ companydata }) {
             <div class="main-content">
                 <div class="header">
                     <img style={{ width: 50, height: 50 }} src={Data.img} alt="" />
-                    <span style={{ marginLeft: 15, fontFamily: 'monospace' }}>{Data.duration}</span>
+                    <span style={{ marginLeft: 15, }}>{Data.duration}</span>
                 </div>
-                <span style={{ fontWeight: 'bold', fontFamily: 'monospace' }}>{Data.name}</span>
+                <span style={{ fontWeight: 'bold', }}>{Data.name}</span>
 
                 <p class="heading">{Data.role}</p>
                 <div class="d-flex justify-content-center">
-                    <span className='' style={{ fontWeight: 'bolder',marginBottom:5,fontSize:18,fontFamily: 'monospace' }}>Skills</span>
+                    <span className='' style={{ fontWeight: 'bolder', marginBottom: 5, fontSize: 18, }}>Skills</span>
 
                 </div>
                 <Container>
@@ -24,7 +24,7 @@ function Company({ companydata }) {
                             return (
                                 <Col xs={0}>
                                     <div className="categories">
-                                        <span style={{ fontWeight: 'bold', fontFamily: 'monospace',padding:5,textAlign:'center',paddingLeft:10,paddingRight:10 }}>{item.sname}</span>
+                                        <span style={{ fontWeight: 'bold', padding: 5, textAlign: 'center', paddingLeft: 10, paddingRight: 10 }}>{item.sname}</span>
                                     </div>
                                 </Col>
 
