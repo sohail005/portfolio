@@ -75,7 +75,7 @@ const projectsdata = [
 ]
 
 function App() {
-  //document.body.style.overflow = 'scroll';
+  //document.body.style.overflow = 'scroll';///
   const windowWidth = useRef(window.innerWidth);
   const windowHeight = useRef(window.innerHeight);
 
