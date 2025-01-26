@@ -1,5 +1,5 @@
 import './App.css';
-import { useRef } from 'react';
+import { useEffect } from 'react';
 import Animated3dbox from './Components/AnimatedBox/Animated3dbox';
 import { Col, Row } from 'react-bootstrap';
 import SkillsCompo from './Components/Skills/SkillsCompo';
@@ -76,9 +76,27 @@ const projectsdata = [
 
 function App() {
   //document.body.style.overflow = 'scroll';///
-  const windowWidth = useRef(window.innerWidth);
-  const windowHeight = useRef(window.innerHeight);
+  useEffect(() => {
+    // Prevent text selection globally
+    const preventTextSelection = (event) => {
+      event.preventDefault();
+    };
 
+    // Attach listeners to block selection
+    document.addEventListener('selectstart', preventTextSelection);
+    document.addEventListener('mousedown', preventTextSelection);
+    document.body.addEventListener("pointermove", (e)=>{
+      const { currentTarget: el, clientX: x, clientY: y } = e;
+      const { top: t, left: l, width: w, height: h } = el.getBoundingClientRect();
+      el.style.setProperty('--posX',  x-l-w/2);
+      el.style.setProperty('--posY',  y-t-h/2);
+    })
+    // Cleanup listeners on component unmount
+    return () => {
+      document.removeEventListener('selectstart', preventTextSelection);
+      document.removeEventListener('mousedown', preventTextSelection);
+    };
+  }, []);
   return (
     <div className='bgimg'>
       {/* Header with name and linkes*/}
