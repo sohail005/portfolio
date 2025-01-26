@@ -9,12 +9,14 @@
 }
 
 .bgimg {
-  background-image: url("https://images.pexels.com/photos/2670898/pexels-photo-2670898.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  /* background-image: url("https://images.pexels.com/photos/2670898/pexels-photo-2670898.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); */
+  background-color: rgb(4, 45, 44);
   height: min-content;
   width: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow-x: hidden;
   /* backdrop-filter: blur(1px); */
   /* background-color: rgba(0, 0, 0, 0.901); */
 }
