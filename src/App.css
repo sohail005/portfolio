@@ -1,6 +1,9 @@
 .container {
   margin-top: 0;
-
+  user-select: none; /* Prevents text selection */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
 }
 
 .infoContainer {
@@ -15,6 +18,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow-x: hidden;
   /* backdrop-filter: blur(1px); */
    background-color: rgba(0, 0, 0, 1); 
 }

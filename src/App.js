@@ -1,5 +1,5 @@
 import './App.css';
-import { useRef } from 'react';
+import { useEffect } from 'react';
 import Animated3dbox from './Components/AnimatedBox/Animated3dbox';
 import { Col, Row } from 'react-bootstrap';
 import SkillsCompo from './Components/Skills/SkillsCompo';
