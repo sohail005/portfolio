@@ -1,104 +1,80 @@
-/* From uiverse.io by @FrM-bot */
-
 .skillitemcard {
-  width: 400px;
-  height: max-content;
-  transition: all .3s;
-  position: relative;
-  border-radius: .5rem 2rem;
-  box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.1);
-  margin-bottom: 1em;
+  flex: 1;
+  /* min-width: 200vw; */
+  /* margin: 10px; */
+  /* background-color: blue; */
+  text-align: center;
 
 }
 
-.skillitemcard:hover {
-  /* transform: scale(1.03); */
-
-}
-
-.img {
-  /* transition: all .3s;
-    background: #00d0ff43;
-    background: -webkit-linear-gradient(to right, #c91d7996, #09c9deb6);
-    background: linear-gradient(to right, #bb0b695d, #09d9b625);
-    width: 100%; */
-}
-
-.img:hover {
-  /* transform: scale(1.9); */
-}
 
 .img-container {
   display: grid;
-  border-radius: .2rem 2rem;
-  height: 390px;
+  border-radius: 1rem;
+  height: auto;
   overflow: hidden;
+  padding: 0.5rem;
 }
 
 .description {
-  position: absolute;
-  top: 0.5rem;
-  left: .5rem;
-  text-align: start;
-  padding: .8rem 1em;
-  width: 95%;
-  transition: all 0.5s ease;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  backdrop-filter: blur(.1rem);
-  background-color: rgba(94, 94, 94, 0.2);
-  border-radius: .5rem 2rem;
-}
-
-.description:hover {
-  transform: perspective(100px) translateX(7px) rotateX(2deg) rotateY(2deg) scale(1);
-  box-shadow: none;
-  border: 0.1px solid rgba(10, 201, 153, 0.164);
-
+  width: 100%;
+  padding: 0.8rem 1em;
+  backdrop-filter: blur(0.1rem);
+  /* background-color: rgba(94, 94, 94, 0.6); */
+  border-radius: 1rem;
 }
 
 .skillitemcardtitle {
-  color: rgb(255, 255, 255);
-  font-family: 'Fantasy';
-  font-size: larger;
+  color: #fff;
+  font-family: 'Audiowide';
+  font-size: x-large;
   font-weight: 700;
-
+  text-align: center;
+  align-self: center;
+  
+}
+.divider {
+  height: 0.5px;
+  width: 100%;
+  background: linear-gradient(to right, #00f0ff, #991616, #c30abc,#0ac517);
+  margin: 2rem 0;
 }
 
-.subitem {
-  background-color: aqua;
-  width: 45%;
-}
-
-.skillitemcardcontainer {
-  display: flex;
-  gap: 10px;
-}
 
 .skillitemcardcontainercard {
-  background-color: #00000038;
-  height: 80px;
-  width: 110px;
-  flex: 1;
+  /* background-color: #00000038; */
+  min-width: max-content;
+  width: max-content;
+  height: 100px;
   border-radius: 16px;
   transition: all 0.3s ease;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 15px;
-  margin-bottom: 10px;
+  margin: 8px;
+  /* <--- Add spacing around each card */
 }
 
+
 .skillitemcardcontainercard:hover {
-  flex: 2;
-  background-color: #26cece30;
+  /* background-color: #26cece30; */
+  /* transform: scale(1.05); */
+  /* margin: 10px; */
+
+}
+
+.skill-icon {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 8px;
 }
 
 .skillname {
-  color: rgb(255, 255, 255);
-  padding-right: 10px;
-  padding-left: 10px;
-  font-family: 'Fantasy';
-  font-size: medium;
-  width: 100px;
+  color: #fff;
+  font-family: 'Audiowide';
+  font-size: 0.75rem;
+  text-align: center;
+  word-break: break-word;
+  margin: 0;
 }

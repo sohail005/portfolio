@@ -1,4 +1,3 @@
-import React from 'react'
 import './Company.css'
 import { Col, Container, Row } from 'react-bootstrap';
 function Company({ companydata }) {
@@ -9,13 +8,13 @@ function Company({ companydata }) {
             <div class="main-content">
                 <div class="header">
                     <img style={{ width: 50, height: 50 }} src={Data.img} alt="" />
-                    <span style={{ marginLeft: 15, }}>{Data.duration}</span>
+                    <span style={{ marginLeft: 15,fontFamily:'Audiowide' }}>{Data.duration}</span>
                 </div>
-                <span style={{ fontWeight: 'bold', }}>{Data.name}</span>
+                <span style={{ fontWeight: 'bold',fontFamily:'Audiowide' }}>{Data.name}</span>
 
                 <p class="heading">{Data.role}</p>
                 <div class="d-flex justify-content-center">
-                    <span className='' style={{ fontWeight: 'bolder', marginBottom: 5, fontSize: 18, }}>Skills</span>
+                    <span className='' style={{ fontWeight: 'bolder', marginBottom: 5, fontSize: 18,fontFamily:'Audiowide' }}>Skills</span>
 
                 </div>
                 <Container>

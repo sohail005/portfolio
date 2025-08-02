@@ -32,7 +32,7 @@
 .introtext {
   color: aliceblue;
   font-size: 40px;
-  font-family: 'Fantasy';;
+  font-family: 'Audiowide';
 }
 
 .basedin {
@@ -41,7 +41,7 @@
 
 .introsmalltext {
   color: white;
-  font-family: 'Fantasy';;
+  font-family: 'Audiowide';
 }
 
 .animated3dbox {
@@ -50,13 +50,10 @@
 }
 .skillsdecpt{
   color: white;
-  font-family: 'Fantasy';;
+  font-family: 'Audiowide';
   margin-bottom: 1em;
   padding: 1em;
 }
-
-
-
 .loader {
   position: relative;
   overflow: hidden;
@@ -85,6 +82,8 @@
   background: linear-gradient(to right,#159957, #155799);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: 'Audiowide';
+  
 }
 
 @keyframes typewriter {
@@ -105,5 +104,56 @@
 
   100% {
     border-right-color: transparent;
+  }
+}
+.tab-item {
+  transition: all 0.3s ease;
+}
+
+.tab-item:hover {
+  color: #0056b3;
+  border-bottom: 3px solid #00f;
+  font-weight: bold;
+}
+body {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  overflow-x: hidden;
+}
+.skillscontainer {
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+  /* max-width: 1200px; */
+  flex: 1;
+}
+
+.skill-box {
+  background-color: #111;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Optional: Make icons and texts scale nicely */
+.skill-icon {
+  max-width: 60px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .skill-box {
+    padding: 15px;
+  }
+
+  .skill-icon {
+    max-width: 40px;
   }
 }
