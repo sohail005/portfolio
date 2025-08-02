@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.efe57631.css",
-    "main.js": "/portfolio/static/js/main.4105c2ff.js",
+    "main.css": "/portfolio/static/css/main.205be106.css",
+    "main.js": "/portfolio/static/js/main.1f704cb9.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/profile-pic.png": "/portfolio/static/media/profile-pic.3a2da1f6ac2878dca0de.png",
     "static/media/xcode.png": "/portfolio/static/media/xcode.2e3975b1fe422653183d.png",
@@ -13,6 +13,7 @@
     "static/media/html.png": "/portfolio/static/media/html.145166f4cc938936e630.png",
     "static/media/mps.png": "/portfolio/static/media/mps.2b537a4346a670a65d49.png",
     "static/media/firebase.png": "/portfolio/static/media/firebase.8380e4e8769d6b58ccb5.png",
+    "static/media/espirit-logo.png": "/portfolio/static/media/espirit-logo.30ea2060885b7207ca0f.png",
     "static/media/flutter.png": "/portfolio/static/media/flutter.3dba97df6ab480a13429.png",
     "static/media/redux.png": "/portfolio/static/media/redux.73033514300cc7351993.png",
     "static/media/express.png": "/portfolio/static/media/express.6f7ded366abac03aec0b.png",
@@ -28,12 +29,12 @@
     "static/media/tailwind-css.png": "/portfolio/static/media/tailwind-css.1c6e120480cf4d01b686.png",
     "static/media/xml.png": "/portfolio/static/media/xml.e76b5a054aaa67ba11ee.png",
     "index.html": "/portfolio/index.html",
-    "main.efe57631.css.map": "/portfolio/static/css/main.efe57631.css.map",
-    "main.4105c2ff.js.map": "/portfolio/static/js/main.4105c2ff.js.map",
+    "main.205be106.css.map": "/portfolio/static/css/main.205be106.css.map",
+    "main.1f704cb9.js.map": "/portfolio/static/js/main.1f704cb9.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.efe57631.css",
-    "static/js/main.4105c2ff.js"
+    "static/css/main.205be106.css",
+    "static/js/main.1f704cb9.js"
   ]
 }
