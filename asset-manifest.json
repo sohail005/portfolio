@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e6a9d6da.css",
-    "main.js": "/portfolio/static/js/main.c309800c.js",
+    "main.css": "/portfolio/static/css/main.d233889f.css",
+    "main.js": "/portfolio/static/js/main.0d14fdf3.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
-    "static/media/profile-pic.png": "/portfolio/static/media/profile-pic.3a2da1f6ac2878dca0de.png",
     "static/media/xcode.png": "/portfolio/static/media/xcode.2e3975b1fe422653183d.png",
     "static/media/postman.png": "/portfolio/static/media/postman.020adb1e989d1063b7f5.png",
     "static/media/react.png": "/portfolio/static/media/react.3a0581ee96ad0e699176.png",
+    "static/media/profile.jpeg": "/portfolio/static/media/profile.3af0e366571611b842e5.jpeg",
     "static/media/mit.png": "/portfolio/static/media/mit.8f81a4a589ad25cbcd12.png",
     "static/media/vscode.png": "/portfolio/static/media/vscode.8b16d91f65e43caf2081.png",
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.d5767e81605b3fd24c81.png",
@@ -29,12 +29,12 @@
     "static/media/tailwind-css.png": "/portfolio/static/media/tailwind-css.1c6e120480cf4d01b686.png",
     "static/media/xml.png": "/portfolio/static/media/xml.e76b5a054aaa67ba11ee.png",
     "index.html": "/portfolio/index.html",
-    "main.e6a9d6da.css.map": "/portfolio/static/css/main.e6a9d6da.css.map",
-    "main.c309800c.js.map": "/portfolio/static/js/main.c309800c.js.map",
+    "main.d233889f.css.map": "/portfolio/static/css/main.d233889f.css.map",
+    "main.0d14fdf3.js.map": "/portfolio/static/js/main.0d14fdf3.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6a9d6da.css",
-    "static/js/main.c309800c.js"
+    "static/css/main.d233889f.css",
+    "static/js/main.0d14fdf3.js"
   ]
 }
