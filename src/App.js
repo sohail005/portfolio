@@ -95,16 +95,16 @@ function App() {
         My work experience as a software engineer across different companies and projects.
       </h5>
       <Row className="justify-content-center text-center">
-  <Col xs={12} md={4} className="d-flex justify-content-center mb-4">
-    <Company companydata={mpsdata} />
-  </Col>
-  <Col xs={12} md={4} className="d-flex justify-content-center mb-4">
-    <Company companydata={revalsysdata} />
-  </Col>
-  <Col xs={12} md={4} className="d-flex justify-content-center mb-4">
-    <Company companydata={espiritsdata} />
-  </Col>
-</Row>
+        <Col xs={12} md={6} className="d-flex justify-content-center mb-4">
+          <Company companydata={mpsdata} />
+        </Col>
+        <Col xs={12} md={6} className="d-flex justify-content-center mb-4">
+          <Company companydata={revalsysdata} />
+        </Col>
+        <Col xs={12} md={6} className="d-flex justify-content-center mb-4">
+          <Company companydata={espiritsdata} />
+        </Col>
+      </Row>
 
 
       {/* Projects Section */}
