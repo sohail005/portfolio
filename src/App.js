@@ -70,20 +70,27 @@ function App() {
       </motion.h5>
 
 
-      <Row className="skillscontainer gx-4 gy-4">
-        <Col xs={12} sm={6} md={3}>
-          <Skillitem title="Frontend" SkillData={frontendData} />
-        </Col>
-        <Col xs={12} sm={6} md={3}>
-          <Skillitem title="Backend" SkillData={backendData} />
-        </Col>
-        <Col xs={12} sm={6} md={3}>
-          <Skillitem title="Android & iOS" SkillData={mobileApp} />
-        </Col>
-        <Col xs={12} sm={6} md={3}>
-          <Skillitem title="Others" SkillData={others} />
-        </Col>
+      <Row className="skillscontainer text-center g-4">
+        {[
+          { title: "Frontend", data: frontendData },
+          { title: "Backend", data: backendData },
+          { title: "Android & iOS", data: mobileApp },
+          { title: "Others", data: others },
+        ].map((item, index) => (
+          <Col
+            key={index}
+            xs={12}
+            sm={6}
+            lg={6}
+            className="d-flex justify-content-center"
+          >
+            <Skillitem title={item.title} SkillData={item.data} />
+          </Col>
+        ))}
       </Row>
+
+
+
 
 
 
